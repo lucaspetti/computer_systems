@@ -21,5 +21,11 @@ int main()
     printf("Now k is %d and i is %d\n", k, i);
     // i = *(&k); IS THE SAME AS i = k
     // *(&k) = 200; SAME AS k = 200
+    char phrase[] = "Now enter a word: ";
+    char word[50];
+
+    printf("%s", phrase);
+    scanf("%s", word);
+    printf("You entered the word %s and it is stored in address %p\n", word, &word);
     return 0;
 }
