@@ -1,16 +1,10 @@
 #include <stdio.h>
 
-void print_line() { 
-    printf("---------------------\n");
-}
+void print_line() { printf("---------------------\n"); }
 
-int print_char_address(char *variable) {
-    printf("%p\n", variable);
-}
+int print_char_address(char *variable) { printf("%p\n", variable); }
 
-int print_int_address(int *variable) {
-    printf("%p\n", variable);
-}
+int print_int_address(int *variable) { printf("%p\n", variable); }
 
 int main()
 {
